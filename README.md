@@ -30,6 +30,15 @@ Get the keys, ids, and endpoints: [Custom Vision - Settings](https://www.customv
 
 Save into [Environment File](<different-approaches/azure-custom-vision/.env>)
 
+Example:
+```
+TRAINING_ENDPOINT=https://crackdetection.cognitiveservices.azure.com/
+TRAINING_KEY=90dad624b6664556accbcfd69e2e170d
+PREDICTION_ENDPOINT=https://crackdetection-prediction.cognitiveservices.azure.com/
+PREDICTION_KEY=4db3cee628434f8a9b492b9760036505
+PREDICTION_RESOURCE_ID=/subscriptions/ddb01653-a592-4bb7-89e5-b39c2fc6e697/resourceGroups/Crack-Dtection/providers/Microsoft.CognitiveServices/accounts/CrackDetection-Prediction
+```
+
 ## Check and Update the Two Datasets
 
 There are 2 original datasets given in XLSX files:
